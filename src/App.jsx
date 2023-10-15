@@ -1,4 +1,5 @@
 import CallToAction from "../components/CallToAction"
+import Footer from "../components/Footer"
 import Home from "../pages/Home"
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <Home/>
       <CallToAction/>
+      <Footer/>
     </div>
   )
 }
