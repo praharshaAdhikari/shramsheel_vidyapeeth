@@ -5,7 +5,7 @@ import logo from '../src/assets/logo.png'
 
 const Footer = () => {
   return (
-    <div className='bg-lime-900 text-lime-100 py-12'>
+    <section className='bg-lime-900 text-lime-100 py-12'>
       <div className='container mx-auto flex flex-col md:flex-row justify-between md:items-center gap-16 lg:px-10'>
         <div className='flex flex-col mx-auto items-center text-center max-w-[28rem]'>
           <div className='flex items-center cursor-pointer mb-4'>
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

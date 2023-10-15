@@ -16,7 +16,7 @@ const Navbar = () => {
   });
 
   return (
-    <div className="flex justify-between items-center mx-auto py-8 container">
+    <nav className="flex justify-between items-center mx-auto py-8 container">
       <a href="/">
         <img className='w-40' src={logo} alt="logo"/>
       </a>
@@ -25,7 +25,7 @@ const Navbar = () => {
         {navLinksEl}
       </div>
       <FontAwesomeIcon icon={faBars} className="text-white text-3xl md:hidden" onClick={toggleMenu}/> 
-    </div>
+    </nav>
   )
 }
 export default Navbar

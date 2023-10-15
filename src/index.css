@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: rgb(224, 251, 174);
+  background-color: #e8fbc4;
 }
 .container {
   max-width: 86vw;
