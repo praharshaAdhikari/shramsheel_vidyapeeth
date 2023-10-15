@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className='bg-lime-900 text-lime-100 py-12'>
       <div className='container mx-auto flex flex-col md:flex-row justify-between md:items-center gap-16 lg:px-10'>
-        <div className='flex flex-col items-center text-center max-w-lg'>
+        <div className='flex flex-col mx-auto items-center text-center max-w-[28rem]'>
           <div className='flex items-center cursor-pointer mb-4'>
             <img src={logo} alt="logo" className="w-40"/>
             {/* <div className='text-lg leading-5 font-bold pl-3'>
@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h2 className='text-3xl uppercase font-semibold mb-4'> Follow Us </h2>
+          <h2 className='text-3xl uppercase font-semibold mb-4 w-max'> Follow Us </h2>
           <div className='flex gap-3 py-1.5 items-center'>
             <FontAwesomeIcon icon={faFacebook}/>
             <a href='/' className='text-md'>Facebook</a>
