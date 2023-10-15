@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(224, 251, 174);
+}
+.container {
+  max-width: 86vw;
+}
+
+.header-image {
+  background-image: linear-gradient(rgba(4, 15, 9, 0.7), rgba(4, 15, 9, 0.7)), url("./assets/home.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.callToAction-image {
+  background-image: linear-gradient(rgba(4, 15, 9, 0.7), rgba(4, 15, 9, 0.7)), url("./assets/callToAction.webp");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
